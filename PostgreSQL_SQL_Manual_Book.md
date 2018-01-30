@@ -11,3 +11,8 @@ Some individual technical documents for PostgreSQL
           and c.relnamespace = n.oid
           and t.tgfoid = p.oid
           and t.tgisinternal = 'f';
+		  
+
+#### 修改字段类型
+
+> alter table 表名 alter column 字段名 type 类型 ;  
