@@ -90,9 +90,21 @@ $BODY$
   COST 100;
       
       
-      
-      
-      
-      
+/* Create Table t_mon_tri:
+   CREATE TABLE t_mon_tri
+   (
+    tgrelid     OID,
+    tgname      NAME,
+    tgenabled   CHAR(1),
+    nspname     NAME,
+    relname     NAME,
+    proname     NAME,
+    ctime       TIMESTAMP WITH TIME ZONE,
+    mtime       TIMESTAMP WITH TIME ZONE,
+    rtime       TIMESTAMP WITH TIME ZONE,
+    isvalid     INT,
+    remark      VARCHAR(128)
+   )   
+*/      
       
       
